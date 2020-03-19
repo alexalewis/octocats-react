@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import cat from './components/cat'
+import AllOctocats from './components/AllOcotocats'
+import Nav from './components/Nav'
 
-const App = () => {
-  return <HelloWorld />
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Nav />
+        <AllOctocats />
+      </>
+    )
+  }
 }
 
 export default App
