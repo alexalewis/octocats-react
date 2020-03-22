@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import cat from './components/cat'
+import Cat from './components/Cat'
 import AllOctocats from './components/AllOcotocats'
 import Nav from './components/Nav'
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import cat from './cat'
+import Cat from './Cat'
 
 import cat1 from '../images/cat1.png'
 import cat2 from '../images/cat2.png'
@@ -18,54 +18,54 @@ export class AllOctocats extends Component {
   render() {
     return (
       <main>
-        <ul>
-          <cat gray="#113" bold="Saritocat" imageUrl={cat1} alt="cat one" />
-          <cat
+        <ul class="images">
+          <Cat gray="#113" bold="Saritocat" imageUrl={cat1} alt="cat one" />
+          <Cat
             gray="#97"
             bold="Mardisgrastocat"
             imageUrl={cat2}
             alt="mardi gras cat"
           />
-          <cat gray="#96" bold="Kimonotocat" imageUrl={cat3} alt="kimono cat" />
-          <cat
+          <Cat gray="#96" bold="Kimonotocat" imageUrl={cat3} alt="kimono cat" />
+          <Cat
             gray="#88"
             bold="Spidertocat"
             imageUrl={cat4}
             alt="spiderman cat"
           />
-          <cat gray="#82" bold="Murakamicat" imageUrl={cat5} alt="cat five" />
-          <cat
+          <Cat gray="#82" bold="Murakamicat" imageUrl={cat5} alt="cat five" />
+          <Cat
             gray="#77"
             bold="Heisencat"
             imageUrl={cat6}
             alt="breaking bad cat"
           />
-          <cat
+          <Cat
             gray="110"
             bold="Grinchtocat"
             imageUrl={cat7}
             alt="the grinch cat"
           />
-          <cat
+          <Cat
             gray="#103"
             bold="Octoliberty"
             imageUrl={cat8}
             alt="statue of liberty cat"
           />
-          <cat
+          <Cat
             gray="#100"
             bold="Daftpunktocat"
             imageUrl={cat9}
             alt="daft punk dj cat"
           />
-          <cat gray="#98" bold="Poptocat" imageUrl={cat10} alt="cat ten" />
-          <cat
+          <Cat gray="#98" bold="Poptocat" imageUrl={cat10} alt="cat ten" />
+          <Cat
             gray="#99"
             bold="Founding Father v2"
             imageUrl={cat12}
             alt="founding father cat"
           />
-          <cat
+          <Cat
             gray="#91"
             bold="Skitchtocat"
             imageUrl={cat11}

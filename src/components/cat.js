@@ -1,27 +1,23 @@
 import React from 'react'
 
-class cat extends React.Component {
+class Cat extends React.Component {
   render() {
     return (
       <main>
-        <ul>
-          <cat>
+        <ul class="images">
+          <Cat>
             <section>
-              <img
-                class="images"
-                src={this.props.imageUrl}
-                alt={this.props.alt}
-              />
+              <img src={this.props.imageUrl} alt={this.props.alt} />
             </section>
             <section>
               <p class="gray">{this.props.gray}</p>
               <p class="bold">{this.props.bold}</p>
             </section>
-          </cat>
+          </Cat>
         </ul>
       </main>
     )
   }
 }
 
-export default cat
+export default Cat
